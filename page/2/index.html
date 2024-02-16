@@ -1,0 +1,194 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>MoyuqLのBlog</title><meta name="author" content="MoyuqL"><meta name="copyright" content="MoyuqL"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="MoyuqLのBlog">
+<meta property="og:url" content="http://example.com/page/2/index.html">
+<meta property="og:site_name" content="MoyuqLのBlog">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://bu.dusays.com/2023/07/29/64c4f45ee421b.jpg">
+<meta property="article:author" content="MoyuqL">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://bu.dusays.com/2023/07/29/64c4f45ee421b.jpg"><link rel="shortcut icon" href="https://bu.dusays.com/2023/07/29/64c4f45ee421b.jpg"><link rel="canonical" href="http://example.com/page/2/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.12.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.32/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'MoyuqLのBlog',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2024-02-16 18:38:12'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.1.1"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://bu.dusays.com/2023/07/29/64c4f45ee421b.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">15</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="MoyuqLのBlog"><span class="site-name">MoyuqLのBlog</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">MoyuqLのBlog</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/12/31/%E3%80%90%E6%95%99%E7%A8%8B%E3%80%91%E7%BB%99MIUI%E7%9A%84%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%9C%BA%E5%88%B7%E6%9C%BA/" title="【教程】给MIUI的小米手机刷机">【教程】给MIUI的小米手机刷机</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-12-30T21:00:00.000Z" title="发表于 2022-12-31 05:00:00">2022-12-31</time></span></div><div class="content">前言刷机的目的是为了给让手机获取Root权限，让手机的性能得到100%的释放，让使用手机更方便，现在很多厂商都禁止用户刷机，而小米，本着“为发烧而生”一直给米粉开放权限，让米粉自由的搞机。
+警告说明[scode type&#x3D;”red” size&#x3D;””]本教程根据博主自己刷机成功的经验而总结而成 如果您因为刷机而导致自己手机出现任何故障，博主概不负责！刷机很危险，请谨慎考虑 道路千万条，刷机是一条，若要不小心，手机变成砖！本教程仅适用搭载MIUI的小米手机，搭载HyperOS的小米手机和其他品牌手机请勿尝试！！！[&#x2F;scode]
+文章内容目录1.如何解BL锁2.如何刷入面具3.如何刷入LSPosed
+如何解BL锁什么是BL锁
+在嵌入式操作系统中，BootLoader是在操作系统内核运行之前运行。可以初始化硬件设备、建立内存空间映射图，从而将系统的软硬件环境带到一个合适状态，以便为最终调用操作系统内核准备好正确的环境。在解开BL锁之前，用户是无法自由进行刷机操作和ROOT操作的。部分手机官方为了保证手机的安全，为手机设置了BL锁，在BL锁未解的情况下，用户是不能 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/12/26/%E3%80%90%E5%88%86%E4%BA%AB%E3%80%91%E4%B8%BA%E4%BA%86%E7%BB%99%E6%96%87%E7%AB%A0%E6%8F%90%E9%AB%98%E6%B5%8F%E8%A7%88%E9%87%8F%EF%BC%8C%E6%88%91%E6%B7%B1%E5%85%A5%E7%A0%94%E7%A9%B6%E4%BA%86%E6%A0%87%E9%A2%98....../" title="【分享】为了给文章提高浏览量，我深入研究了标题......">【分享】为了给文章提高浏览量，我深入研究了标题......</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-12-25T18:00:00.000Z" title="发表于 2022-12-26 02:00:00">2022-12-26</time></span></div><div class="content">之前，B站百万UP主何同学，发了一条关于视频封面的问题
+ 
+
+这篇问题主要讲的是不同封面哪一种更吸引用户呢，而同样，@张洪Heo 曾经也写出了 关于他博客文章封面的迭代
+这些都是讲了关于封面头图的规划，可是，除此之外，你有没有想过一个标题，也是改变看法的关键因素！
+需要标题假如你的文章或者视频没有标题，那么读者会怎么想，我们先来看两张图
+
+不知道你是怎么想的，反正当我看到这篇文章时，感觉一定不是什么优质文章，当然，你也不能拿这个去当成一个评判的标准，毕竟，在中华上下5000年里，有不知多少诗名为《无题》
+在考试中，你的作文没有题目，会扣掉相应的分数，书籍没有题目，讲不给予出版。题目，是一个文章中的必需品，不可缺失！
+题目？如何起？现在，网络上的题目各式各样，很多人不会起题目。首先，我们来看一下 何同学、杜老师、张洪Heo、MoyuqL(ME) 的题目都是什么样的（取近5篇文章。
+
+
+
+何同学
+张洪Heo
+杜老师说
+MoyuqL
+
+
+
+【何同学】 为了找到专注的秘诀，我们找500人做了个实验…
+镜布如何选择：为什么我总是擦不干净眼镜呢？
+杜老师说旗下服务调整回源策略
+【分享】我用的Typ ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/12/13/%E3%80%90%E6%95%99%E7%A8%8B%E3%80%91%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AAHexo%E5%8D%9A%E5%AE%A2/" title="【教程】搭建一个Hexo博客">【教程】搭建一个Hexo博客</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-12-12T16:00:00.000Z" title="发表于 2022-12-13 00:00:00">2022-12-13</time></span></div><div class="content">对于博客的认识，我是来自Hexo，但后来因为某种原因放弃了，但是，它可以让你在资金不足但又很想在互联网上拥有属于自己的一番天地的时候来实现梦想，而今天，我们就来讲述怎样搭建一个Hexo博客
+相关内容介绍我们主要介绍两个东西，一个是Hexo，另一个是Github page （本篇教程还需要用到git以及Nodejs，但是再此我过多提及）
+什么是Hexo
+Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。
+以上内容引用自hexo.io
+
+简单的来说，Hexo和wordpress，typecho等博客框架是一样的，只不过这些是动态站点，需要服务器来部署，而Hexo属于静态站点，可以部署在静态托管网站，这就可以给我们节省一大笔服务器的费用
+什么是GithubpageGithubpage，是全球最大的代码开源中心Github为开发者们提供的免费静态代码托管平台，而且提供免费域名，在这里，你可以随意部署静态网站
+注册Github说了这么多，我们开始进入正题，首先我们来说一下怎么注册Github（有Git ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/12/08/%E3%80%90%E6%B5%8B%E8%AF%84%E3%80%91%E5%A4%A9%E6%89%8D%E9%80%89%E5%B0%8F%E5%94%B1%E9%BA%A6%E5%85%8B%E9%A3%8EC11/" title="【测评】天才选小唱麦克风C11">【测评】天才选小唱麦克风C11</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-12-07T22:00:00.000Z" title="发表于 2022-12-08 06:00:00">2022-12-08</time></span></div><div class="content">智能设备连接前不久，小天才的天才选和唱吧的小唱联合发布了小唱C11智能麦克风，这次的麦克风和小唱10相比，有着巨大的提升。这次，小唱c11不仅可以连接手机、电视、电脑，还可以通过小天才的唱吧app，来和小天才电话手表的智能设备进行连接（目前仅支持Z6巅峰版及其以上型号）链接手表以后，我们可以在手表上对麦克风进行切换音效等控制，可以实时查看麦克风电量，当然，你也可以和你的好友一起进行PK，通过等级排行来比一下谁才是真正的歌王！当然，如果你的手表没有智能设备，也可以通过蓝牙连接，配合K歌软件使用哦~
+古诗词诵读当然，在唱吧app里，不仅有着各种各样的歌曲，还有古诗词，让我们可以通过麦克风进行古诗词朗读，然后分享个自己的好友圈和家庭群聊，这样，不仅会拥有让我们拥有成就感，还可以让我们背诵更多的古诗词！
+趣味音效如果这个设备仅有可以和手表连接这一个特点的话，那肯定不会有人买，这次的小唱C11有原声、混响、唱将、通俗、民歌、主持、卡通、怪兽8种音效，让这个麦克风在不同的场合下，发挥着自己不同的作用。这里，我最喜欢的就是卡通音效和怪兽音效 awa
+双人合唱我们的小唱C11也支持双人合唱，加入你的朋 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2022/12/08/hello-world/" title="Hello World">Hello World</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-12-07T16:00:00.000Z" title="发表于 2022-12-08 00:00:00">2022-12-08</time></span></div><div class="content">是一篇初始文章，我并不想将他删除。这代表的博客的开始，也向往着博客的未来！那么，客套一下啦~！感谢您访问MoyuqLのBlog，愿你在今天、明天、以及未来的每一天都有着充实而快乐的生活！所以，Hexo官方说：
+
+Welcome to Hexo! This is your very first post.
+
+让我们开始写作吧！
+​                                                                                                                                                                 2022.12.08​                                                                                                                                                                    ...</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://bu.dusays.com/2023/07/29/64c4f45ee421b.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">MoyuqL</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">15</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/02/16/%E3%80%90My%20World%E3%80%912023%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/" title="无题">无题</a><time datetime="2024-02-16T10:31:28.071Z" title="发表于 2024-02-16 18:31:28">2024-02-16</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/02/16/%E3%80%90%E4%BB%8E%E9%9B%B6%E5%81%9A%E4%B8%80%E4%B8%AA%E5%85%A8%E5%B1%8B%E6%99%BA%E8%83%BD%E3%80%91%E9%80%9A%E4%B8%8A%E7%BD%91%E7%BB%9C%E5%95%A6~/" title="无题">无题</a><time datetime="2024-02-16T10:31:10.342Z" title="发表于 2024-02-16 18:31:10">2024-02-16</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/02/16/%E3%80%90%E6%B5%8B%E8%AF%84%E3%80%91%E6%88%91%E7%94%A8%E4%B8%8A%E4%BA%86%E7%99%BE%E5%BA%A6AI/" title="无题">无题</a><time datetime="2024-02-16T10:30:52.433Z" title="发表于 2024-02-16 18:30:52">2024-02-16</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/02/16/%E3%80%90%E6%B5%8B%E8%AF%84%E3%80%91Markdown%E8%AF%AD%E6%B3%95%E5%92%8CTypora%E7%BC%96%E8%BE%91%E5%99%A8/" title="无题">无题</a><time datetime="2024-02-16T10:30:37.340Z" title="发表于 2024-02-16 18:30:37">2024-02-16</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/02/16/%E3%80%90My%20World%E3%80%91%E8%87%B4%E6%95%AC-%E4%B8%80%E4%BB%A3%E6%AD%8C%E5%90%8E%20-COCO%E6%9D%8E%E7%8E%9F/" title="无题">无题</a><time datetime="2024-02-16T10:29:53.904Z" title="发表于 2024-02-16 18:29:53">2024-02-16</time></div></div></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/02/"><span class="card-archive-list-date">二月 2024</span><span class="card-archive-list-count">9</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/01/"><span class="card-archive-list-date">一月 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/12/"><span class="card-archive-list-date">十二月 2022</span><span class="card-archive-list-count">5</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">15</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-02-16T10:38:12.707Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By MoyuqL</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.12.0"></script><script src="/js/main.js?v=4.12.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.32/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
