@@ -6,7 +6,7 @@
   <link href="https://blog.moyuql.top/atom.xml" rel="self"/>
   
   <link href="https://blog.moyuql.top/"/>
-  <updated>2024-12-29T12:49:25.567Z</updated>
+  <updated>2024-12-31T09:53:22.546Z</updated>
   <id>https://blog.moyuql.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.moyuql.top/posts/499dda39.html"/>
     <id>https://blog.moyuql.top/posts/499dda39.html</id>
     <published>2024-12-31T12:00:00.000Z</published>
-    <updated>2024-12-29T12:49:25.567Z</updated>
+    <updated>2024-12-31T09:53:22.546Z</updated>
     
     
       
@@ -36,6 +36,10 @@
     
     
     
+    <category term="My World" scheme="https://blog.moyuql.top/categories/My-World/"/>
+    
+    
+    <category term="年度总结" scheme="https://blog.moyuql.top/tags/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
